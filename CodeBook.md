@@ -11,6 +11,7 @@ or work that you performed to clean up the data called CodeBook.md.
 * `X_table_ms` extracts the measurements on the mean and standarddeviation from 'X_table'.
 * `full_table` merges `subject_table` `Y_table` and `X_table_ms`.
 * `tidy_dataset` is the tidy dataset that is the output from run_Analysis.R. The average of each variable for each activity and subject from `full_table` is represented in 'tidy_dataset`.
+* A full description of the raw data set can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and the data can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 ## Variables
 The variables in the data come from accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The variables represent both data in the time domain representation and in the frequency domain representation (Fourier Transform). Below is a short summary of the variables.
